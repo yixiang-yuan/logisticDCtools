@@ -6,6 +6,7 @@ Authors@R: c(
     person(
       "Yixiang", "Yuan",
       email = "yy2328@cornell.edu",
+      role = c("aut", "cre"),
     )
   )
 Description: The package provides functions for large scale, high-dimensional logistic regression analysis

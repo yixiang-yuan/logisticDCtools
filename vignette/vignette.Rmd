@@ -19,7 +19,10 @@ The vignette will go through installation of the package, creating simulation da
 The following code chunk will install the package through devtools. It will first try to install devtools, then install the package located on Github.
 
 ```{r installation}
-install.packages("devtools")
+# Optional: install devtools
+# install.packages("devtools")
+
+# Install the package from github
 devtools::install_github("yixiang-yuan/logisticDCtools")
 ```
 
@@ -117,3 +120,4 @@ data.frame(
 ## Conclusions
 
 We can see a significant improvement on running time with the divide-and-conquer algorithm.
+

@@ -49,7 +49,7 @@ n <- 1000
 s <- 30
 k <- 5
 tau <- 0.2
-#' X <- matrix(rnorm(n * p), nrow = n, ncol = p)
+X <- matrix(rnorm(n * p), nrow = n, ncol = p)
 beta <- sample(c(rep(10 / sqrt(s), s), rep(0, p - s)))
 beta.active <- ifelse(beta != 0, 1, 0)
 y <- ifelse(1 / (1 + exp(-X \%*\% beta)) > 0.5, 1, 0)

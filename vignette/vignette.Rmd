@@ -18,7 +18,7 @@ The vignette will go through installation of the package, creating simulation da
 
 The following code chunk will install the package through devtools. It will first try to install devtools, then install the package located on Github.
 
-```{r installation}
+```{r installation, eval=F}
 # Optional: install devtools
 # install.packages("devtools")
 
@@ -119,5 +119,5 @@ data.frame(
 
 ## Conclusions
 
-We can see a significant improvement on running time with the divide-and-conquer algorithm.
+We can see a significant improvement on running time with the divide-and-conquer algorithm. Meanwhile, the variable selection abilities of the divide-and-conquer algorithm does not underperform the results from evaluating the entire data set. This short demonstration showed the advantages of using divide-and-conquer for very large data sets in practice.
 

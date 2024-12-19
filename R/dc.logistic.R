@@ -156,7 +156,6 @@ dc.logistic <- function(
 
   }
 
-
   # Record time
   elapsed.time <- as.numeric((proc.time() - start.time)['elapsed'])
 

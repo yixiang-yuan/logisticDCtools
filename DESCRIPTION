@@ -8,7 +8,7 @@ Authors@R: c(
       email = "yy2328@cornell.edu",
     )
   )
-Description: The package provides helpful functions for carrying out high-dimensional logistic regression
+Description: The package provides functions for large scale, high-dimensional logistic regression analysis
     both with the entire data set or with data split across multiple cores for faster computation. The function
     uses some regularization in the list of LASSO, MCP or SCAD to tackle with high-dimensionality of the data, and
     will produce a sparse prediction with an active set specifying the predicted non-zero entries. The method for 
